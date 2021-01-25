@@ -52,6 +52,7 @@ WHILE 'begin' is less than 'num'
         PRINT "Fizz"
     ELSE IF 'begin' modulus by 5 is 0
         PRINT "Buzz"
+    ELSE PRINT 'begin'
     END IF
     'begin' plus 1
 END WHILE
