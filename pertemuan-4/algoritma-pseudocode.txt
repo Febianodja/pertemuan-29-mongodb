@@ -1,16 +1,16 @@
 PROJECT 1
 
-SET variable seconds as 0
-SET variable hours as any integer value
-INPUT any number into hours
-COMPUTE hours times 3600
-PUT result into seconds
-DISPLAY seconds
+SET variable 'seconds' as 0
+SET variable 'hours' as any integer value
+INPUT any number into 'hours'
+COMPUTE 'hours' times 3600
+PUT result into 'seconds'
+DISPLAY 'seconds'
 
 PROJECT 2
 
-SET variables num1 and num2 as any integer value
-INPUT any number into num1 and num2
+SET variables 'num1' and 'num2' as any integer value
+INPUT any number into 'num1' and 'num2'
     IF 'num1' is bigger than 'num2'
         PRINT 'num 1'
     ELSE IF 'num2' is bigger than 'num1'
@@ -38,10 +38,21 @@ SET 'numN' as any integer value
 WHILE begin is less equals than 'numN'
     DO 'begin' plus 1
     PRINT 'begin'
-END LOOP
-
-    
+END WHILE
 
 
 
+
+PROJECT 5
+
+SET 'num' with any integer value
+SET 'begin' as 1
+WHILE 'begin' is less than 'num'
+    IF 'begin' modulus by 3 is 0
+        PRINT "Fizz"
+    ELSE IF 'begin' modulus by 5 is 0
+        PRINT "Buzz"
+    END IF
+    'begin' plus 1
+END WHILE
 
