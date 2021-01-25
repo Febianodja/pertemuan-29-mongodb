@@ -1,0 +1,47 @@
+PROJECT 1
+
+SET variable seconds as 0
+SET variable hours as any integer value
+INPUT any number into hours
+COMPUTE hours times 3600
+PUT result into seconds
+DISPLAY seconds
+
+PROJECT 2
+
+SET variables num1 and num2 as any integer value
+INPUT any number into num1 and num2
+    IF 'num1' is bigger than 'num2'
+        PRINT 'num 1'
+    ELSE IF 'num2' is bigger than 'num1'
+        PRINT num 2
+    ELSE PRINT 'num1' is equal than 'num2'
+
+PROJECT 3
+
+SET 'travelers' as any integer value
+SET 'price' as any integer value
+SET 'two way' as true
+SET 'total' as 0
+    IF two way is true
+        DO 'travelers' times 'price' times 2
+        STORE result in 'total'
+    ELSE 
+        DO 'travelers' times 'price'
+        STORE result in 'total'
+DISPLAY 'total'
+
+PROJECT 4
+
+SET 'begin' as 0
+SET 'numN' as any integer value
+WHILE begin is less equals than 'numN'
+    DO 'begin' plus 1
+    PRINT 'begin'
+END LOOP
+
+    
+
+
+
+
